@@ -373,16 +373,18 @@ svg {
 
 .benefits-items {
   display: flex;
+  gap: 30px;
   margin: 0;
   padding: 0;
 }
 
-.benefits-items .item:not(:last-child) {
+/* .benefits-items .item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 .benefits-items .item {
-  width: 270px;
+  flex-basis: calc((100%-90px) / 4);
+  /* width: 270px; */
 }
 
 .decor {
